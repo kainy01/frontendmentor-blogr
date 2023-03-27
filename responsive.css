@@ -1,0 +1,57 @@
+/* BIG SCREEN SIZES */
+@media screen and (min-width: 992px) {
+  /* header */
+  header {
+  height: 500px;
+
+  }
+  
+  /* section-1 */
+  .section-1 {
+    padding: 100px 0px;
+    background-image: url(./images/illustration-editor-desktop.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 30%;
+    height: 600px;
+  }
+  .img-hide {
+    display: none;
+  }
+  .img-hide {
+    display: none;
+  }
+  .desktop-text {
+    text-align: left !important;
+  }
+
+  /* section-2 */
+  .section-2 {
+    height: 400px;
+    text-align: left;
+    background-image: url(./images/bg-pattern-circles.png);
+    background-size: 50%;
+    background-position: top left;
+  }
+
+  .section-2 .img-container {
+    position: relative;
+    top: -220px;
+  }
+  .section-2 img {
+    width: 520px;
+  }
+  /* .section-3 */
+  .section-3 {
+    padding-top: 200px;
+   height: 700px;
+    background-image: url(./images/illustration-laptop-desktop.svg);
+    background-size: 40%;
+    background-position: left center;
+    background-repeat: no-repeat;
+  }
+
+  .section-3 h3 {
+    color: #223e54;
+  }
+}
